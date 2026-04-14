@@ -12,7 +12,7 @@ python setup.py develop
 ```
 You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/blob/master/docs/INSTALL.md) for installation
 
-Put ours_arch.py to the path "basicsr/archs".
+Put ours_arch.py to the path "basicsr/archs", "Ours" is the PLKDCN.
 
 ### Training
 - Run the following commands for training:
