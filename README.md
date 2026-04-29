@@ -41,6 +41,7 @@ python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x2.yml
 python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x3.yml
 python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x4.yml
 ```
+- Pretrained models are in pretrain_models_scale.zips.
 - The test results will be in './results'.
 
 
