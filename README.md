@@ -4,11 +4,13 @@
 
 Single image super-resolution (SISR) aims to reconstruct high-resolution images from low-resolution inputs, and lightweight models are essential for real-world deployment. Existing CNN and Transformer-based methods often struggle to balance performance and computational complexity, limiting their application on mobile devices. This work addresses this issue by proposing a partial large kernel depth-wise convolutional network (PLKDCN) for efficient lightweight super-resolution. The method integrates a feature modulation attention block composed of partial large kernel depth-wise convolution, depth-wise convolutional feedforward network, and element-wise attention to reduce computation while preserving fine details. Here we show that PLKDCN achieves 32.28 dB PSNR on Set5 for ×4 super-resolution with only 415K parameters, outperforming many state-of-the-art lightweight methods. The proposed design offers a practical solution for efficient image restoration and supports broader deployment in resource-constrained scenarios.
 
-![Figure_1](D:\PLKDCN\figs\Figure_1.png)
+![Figure_1](./figs/Figure_1.png)
 
 ### Network architecture
 
-![Figure_2](D:\PLKDCN\figs\Figure_2.jpg)
+ours_arch.py is the proposed PLKDCN:
+
+![Figure_2](./figs/Figure_2.jpg)
 
 ### Installation
 ```python
@@ -61,17 +63,17 @@ python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x4.yml
 
 #### Quantitative Comparisons
 
-![Figure_5](D:\PLKDCN\figs\Figure_5.png)
+![Figure_5](./figs/Figure_5.png)
 
 #### Qualitative Comparisons
 
 Benchmarks: 
 
-![Figure_3](D:\PLKDCN\figs\Figure_3.jpg)
+![Figure_3](./figs/Figure_3.jpg)
 
 RealSR:
 
-![Figure_4](D:\PLKDCN\figs\Figure_4.jpg)
+![Figure_4](./figs/Figure_4.jpg)
 
 ## Citation
 
