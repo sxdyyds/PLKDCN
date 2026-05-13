@@ -12,7 +12,6 @@ python setup.py develop
 ```
 You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/blob/master/docs/INSTALL.md) for installation
 
-Put ours_arch.py to the path "basicsr/archs", "Ours" is the PLKDCN.
 
 ### Training
 - Run the following commands for training:
@@ -41,7 +40,6 @@ python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x2.yml
 python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x3.yml
 python basicsr/test.py -opt options/test/Ours/test_DIV2K_k9d64n10_x4.yml
 ```
-- Pretrained models are in pretrain_models_scale.zips.
 - The test results will be in './results'.
 
 
